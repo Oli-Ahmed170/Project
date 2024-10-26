@@ -1,0 +1,118 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 0 20px;
+    color: white;
+}
+.logo{display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.pic{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+nav{
+    background-color: gray;
+    color: white;
+    padding: 5px;
+    width: 100%;
+
+}
+nav a{
+    color: white;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    margin: 0 10px;
+}
+.section1{
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 0;
+}
+.section2{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+.section2 div h3{
+    color: red;
+}
+.section2 div{
+    margin: 0 30px;
+}
+.section3 {
+    background-color: lightgray;
+    text-align: center;
+    padding: 15px;
+
+}
+.section3 div{
+    background-color: white;
+    text-align: center;
+    width: 23%;
+    margin: 1%;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px white;
+    display: inline-block;
+}
+.section3 div img{
+    width: 100%;
+    border-radius: 15px;
+}
+.section3 button{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+.section3 p{
+    color: red;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 0;
+    width: 100%;
+}
+.product table{
+        border-collapse: collapse;
+        width:100%;
+       
+}
+td, th{
+        Border: 1px solid #ddd;
+        padding:8px;
+}
+table tr:nth-child(even){background-color:#f2f2f2;
+}
+table th{
+        text-align: left;
+        background-color: #04AA6D;
+        color: white;
+}
+form{
+    padding: 50px;
+}
+
+
